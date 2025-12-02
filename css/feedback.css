@@ -1,0 +1,44 @@
+.body{
+            font-family: Arial, sans-serif; 
+            background-color:rgb(247, 226, 221); 
+        .container{
+            width: 40%;
+             margin: 40px auto; 
+             background: rgb(246, 237, 233); 
+             padding: 30px; border-radius: 
+             10px; 
+             box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        .image{
+            padding: 20px 30px 20px 30px;
+            height:250px;
+            width:90% ;
+
+        }
+        .rating{
+            width: 62.5%; 
+            padding: 10px; 
+            margin: 8px 0;
+        }
+        .heding{
+        text-align: center;
+
+        }
+        .info{
+       width: 60%; 
+        padding: 10px; 
+         margin: 8px 0 ;
+        }
+       .btn{
+       background: rgb(2, 88, 88);
+       color: white;  
+       padding: 12px 20px;
+        border: none; 
+        border-radius:30px;
+         cursor: pointer;
+        
+       }
+       .btn:hover{
+      background-color: rgb(145, 209, 228);;
+       }
+      

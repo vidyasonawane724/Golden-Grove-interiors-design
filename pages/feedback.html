@@ -1,11 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Interior Design Feedback</title>
+   <link rel="stylesheet" href="./../css/feedback.css">
 </head>
-<body>
-    <h1>feedback page</h1>
+<body class="body">
+    
+       <div class="container">
+        
+
+      
+        <h2 class="heding">Interior Design Feedback Form</h2>
+        <image src="image.png" class="image"/>
+        <p class="heding">We value your feedback to improve our services.</p>
+
+        <form>
+
+            <label>Full Name:</label><br>
+            <input type="text" name="name" placeholder="Enter your name" class="info"><br>
+
+            <label>Email:</label><br>
+            <input type="email" name="email" placeholder="Enter your email"class="info"><br>
+
+            <label>services.html</label><br>
+            <select name="rating" class="rating">
+                <option>>Select a service</option>
+                <option>Full Home Design</option>
+                <option>Single Room Design</option>
+                <option>Consultation</option>
+                <option>Other</option>
+            </select><br>
+            <label>Rate Our Interior Design Service:</label><br>
+            <select name="rating" class="rating">
+                <option>Excellent</option>
+                <option>Very Good</option>
+                <option>Good</option>
+                <option>Average</option>
+                <option>Poor</option>
+            </select><br>
+
+            <label>Which part did you like the most?</label><br>
+            <input type="text" name="favorite" placeholder="e.g., Living room design, color theme"class="info"><br>
+
+            <label>Suggestions for Improvement:</label><br>
+            <textarea name="suggestion" rows="4" placeholder="Write your suggestions here"class="info"></textarea><br>
+
+            <label>Would you recommend us to others?</label><br>
+            <input type="radio" name="recommend" value="yes"> Yes
+            <input type="radio" name="recommend" value="no"> No
+            <br><br>
+
+            <button type="submit" class="btn">Submit Feedback </button>
+
+        </form>
+
+    </div>
+    
+
 </body>
 </html>
