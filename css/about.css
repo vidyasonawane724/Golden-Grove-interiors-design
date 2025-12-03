@@ -1,0 +1,158 @@
+.main{
+            background-color:aliceblue;
+        }
+.navbar {
+    background-color:#660000 ;
+    color: white;
+    display:flex;
+    align-items: center;
+    gap: 90px;
+    position: fixed;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.nav-text-container{
+    cursor: pointer;
+    color:rgb(169, 141, 89);
+    font-size: 20px;
+}
+.nav-text-container:hover{
+    color: aliceblue;
+    
+}
+.sub-navbar{
+     background-color:#660000 ;
+    color: white;
+    display:flex;
+    align-items: center;
+    gap: 20px;
+}
+ .mission-vision-container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 20px;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+        .mission {
+            border-style: groove;
+            border: none;
+            width: 350px;
+            padding: 20px;
+            font-size: 20px;
+            background-color: rgb(234, 210, 175);
+            text-align: center;
+            color: rgb(79, 6, 6);
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(9, 9, 9, 0.849);
+            transition: transform 0.2s ease;
+
+        }
+
+        .mission:hover {
+            transform: scale(1.05);
+        }
+
+        .vision {
+            border-style: groove;
+            border: none;
+            width: 350px;
+            padding: 20px;
+            height: 100px;
+            font-size: 20px;
+            background-color: rgb(234, 210, 175);
+            text-align: center;
+            color: rgb(79, 6, 6);
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(9, 9, 9, 0.849);
+            transition: transform 0.2s ease;
+
+        }
+
+        .vision:hover {
+            transform: scale(1.05);
+        }
+
+        .logo {
+            text-align: center;
+            border-radius: 50px;
+
+        }
+
+        .information{
+             border-style: groove;
+            border: none;
+            
+            padding: 20px;
+            height: 200px;
+            font-size: 20px;
+            background-color: rgb(187, 228, 186);
+            text-align: center;
+            color: rgb(79, 6, 6);
+            border-radius: 10px;
+        
+            transition: transform 0.2s ease;
+            
+        }
+
+        .team-wrapper {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .team-wrapper h2 {
+            font-size: 28px;
+            color: #003399;
+            margin-bottom: 30px;
+        }
+
+        .team-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        .team-card {
+            width: 200px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+            transition: transform 0.2s ease;
+            cursor: pointer;
+        }
+
+        .team-card:hover {
+            transform: scale(1.05);
+        }
+
+        .team-card img {
+            width: 120px;
+            height: 120px;
+
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .team-card h3 {
+            margin: 8px 0 5px;
+            font-size: 18px;
+            color: #222;
+        }
+
+        .team-card p {
+            color: #555;
+            font-size: 14px;
+        }
+
+        .footer {
+            text-align: center;
+            background-color: rgb(72, 67, 67);
+            color: whitesmoke;
+            font-size: 20px;
+        
+        }
